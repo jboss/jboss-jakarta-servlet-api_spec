@@ -1,3 +1,13 @@
+JBoss Jakarta Servlet
+==================================
+
+What is this
+-----------------------
+
+This is fork of Jakarta Servlet api project.
+Upstream used: https://github.com/eclipse-ee4j/servlet-api/
+
+
 # Jakarta Servlet
 
 This repository contains the code for Jakarta Servlet.
