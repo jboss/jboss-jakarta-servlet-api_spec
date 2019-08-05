@@ -20,16 +20,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"> <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.eclipse.ee4j</groupId>
-        <artifactId>project</artifactId>
-        <version>1.0.5</version>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-parent</artifactId>
+        <version>35</version>
     </parent>
 
-    <groupId>jakarta.servlet</groupId>
-    <artifactId>jakarta.servlet-api</artifactId>
-    <version>4.0.3</version>
+    <groupId>org.jboss.spec.javax.servlet</groupId>
+    <artifactId>jboss-servlet-api_4.0_spec</artifactId>
+    <version>2.0.0.CR1-SNAPSHOT</version>
     
-    <name>Jakarta Servlet</name>
+    <name>JBoss Jakarta Servlet</name>
     <url>https://projects.eclipse.org/projects/ee4j.servlet</url>
 
     <properties>
@@ -94,9 +94,9 @@
     </mailingLists>
     
     <scm>
-        <connection>scm:git:https://github.com/eclipse-ee4j/servlet-api.git</connection>
-        <developerConnection>scm:git:git@github.com:eclipse-ee4j/servlet-api.git</developerConnection>
-        <url>https://github.com/eclipse-ee4j/servlet-api</url>
+        <connection>scm:git:https://github.com/jboss/jboss-jakarta-servlet-api.git</connection>
+        <developerConnection>scm:git:git@github.com:jboss/jboss-jakarta-servlet-api.git</developerConnection>
+        <url>https://github.com/jboss/jboss-jakarta-servlet-api</url>
         <tag>HEAD</tag>
     </scm>
 

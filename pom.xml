@@ -21,25 +21,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>org.eclipse.ee4j</groupId>
-        <artifactId>project</artifactId>
-        <version>1.0.5</version>
+        <groupId>org.jboss</groupId>
+        <artifactId>jboss-parent</artifactId>
+        <version>35</version>
     </parent>
 
-    <groupId>org.eclipse.ee4j.servlet</groupId>
-    <artifactId>servlet-parent</artifactId>
+    <groupId>org.jboss.spec.javax.servlet</groupId>
+    <artifactId>jboss-servlet-api_4.0_spec-parent</artifactId>
     <packaging>pom</packaging>
-    <version>4.0.3-SNAPSHOT</version>
-    <name>Jakarta Servlet Parent</name>
+    <version>2.0.0.CR1-SNAPSHOT</version>
+    <name>JBoss Jakarta Servlet Parent</name>
     <description>
         Jakarta Servlet defines a server-side API for handling HTTP requests and responses.
     </description>
     <url>https://projects.eclipse.org/projects/ee4j.servlet</url>
 
     <scm>
-        <connection>scm:git:https://github.com/eclipse-ee4j/servlet-api.git</connection>
-        <developerConnection>scm:git:git@github.com:eclipse-ee4j/servlet-api.git</developerConnection>
-        <url>https://github.com/eclipse-ee4j/servlet-api</url>
+        <connection>scm:git:https://github.com/jboss/jboss-jakarta-servlet-api.git</connection>
+        <developerConnection>scm:git:git@github.com:jboss/jboss-jakarta-servlet-api.git</developerConnection>
+        <url>https://github.com/jboss/jboss-jakarta-servlet-api</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -60,7 +60,6 @@
 
     <modules>
         <module>api</module>
-        <module>spec</module>
     </modules>
 
     <licenses>
